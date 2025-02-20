@@ -3,9 +3,8 @@ using namespace std;
 
 int main(){
 
-    int a=5,b=2;
-    double dev = a/(double)b;
-    cout<<dev;
+    double A = 6.99999999;
+    cout<<A<<endl;
 
     return 0;
 }
