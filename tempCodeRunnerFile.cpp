@@ -1,2 +1,2 @@
-    return 0;
-}
+else if(n==1){
+    //     cout<<2;
