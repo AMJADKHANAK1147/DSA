@@ -8,10 +8,7 @@ int main(){
 
     if(n==0){
         cout<<1;
-    } //else if(n==1){
-       // cout<<2;
-    // }
-    else{
+    } else{
         cout<<(1<<n);
     }
 

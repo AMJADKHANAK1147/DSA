@@ -2,13 +2,11 @@
 using namespace std;
 int main(){
 
-    int Num;
-    cout<<"Enter the value of Num: ";
-    cin>>Num;
+  int N;
+  cout<<"Enter the value of N: ";
+  cin>>N;
 
-    if(Num%2 == 0){
-        cout<<"Num is a "
-    }
+  while(n%2==0)
 
 return 0;
 
