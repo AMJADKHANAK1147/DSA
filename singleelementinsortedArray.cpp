@@ -46,6 +46,7 @@ int main(){
        }
 
     }
+    cout<<"Single element does not exist"<<endl;
 
     return 0;
 }
