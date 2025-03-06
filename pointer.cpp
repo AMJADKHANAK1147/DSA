@@ -1,20 +1,20 @@
-// #include<iostream>
-// using namespace std;
+#include<iostream>
+using namespace std;
 
-// void changeA(int *ptr ){
-//     *ptr = 20;
+void changeA(int *ptr ){
+    *ptr = 20;
     
-// }
+}
 
-// int main(){
+int main(){
 
-//     int a = 10;
+    int a = 10;
 
-//         changeA(&a);
-//         cout<<a<<endl;
+        changeA(&a);
+        cout<<a<<endl;
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 // #include<iostream>
@@ -36,22 +36,22 @@
 // }
 
 
-#include<iostream>
-#include<vector>
-using namespace std;
+// #include<iostream>
+// #include<vector>
+// using namespace std;
 
-int main(){
+// int main(){
 
-    int arr[3] = {4,7,4};
-    // cout<<arr<<endl;
-    // cout<<*arr<<endl;
+//     int arr[3] = {4,7,4};
+//     // cout<<arr<<endl;
+//     // cout<<*arr<<endl;
 
-       for(int i=0;i<3;i++){
-        cout<<*(arr+i)<<endl;
-       }
+//        for(int i=0;i<3;i++){
+//         cout<<*(arr+i)<<endl;
+//        }
     
    
      
 
-    return 0;
-}
+//     return 0;
+// }
